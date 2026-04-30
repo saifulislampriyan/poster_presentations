@@ -151,14 +151,7 @@ The system benchmarks multiple algorithms and provides a **real-time prediction 
 - Ensemble models outperform simple models  
 - ML-based detection is effective for Bangla news  
 
----
 
-##  Limitations
-
-- Language ambiguity in Bangla  
-- Data imbalance  
-- Limited NLP tools for Bangla  
-- Domain-specific bias  
 
 ---
 
@@ -233,19 +226,5 @@ The system combines **traditional machine learning models** with **deep learning
 
 ---
 
-##  Limitations
 
-- Dataset imbalance  
-- Limited zero-day attack coverage  
-- Homoglyph mapping constraints  
-- Lack of full email context  
 
----
-
-##  Future Work
-
-- Integrate BERT for contextual understanding  
-- Real-time deployment system  
-- Full email body analysis  
-
----
