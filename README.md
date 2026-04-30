@@ -78,3 +78,95 @@ It demonstrates strong fundamentals of **game development, OOP, and real-time lo
 ##  Final Note
 
 A fun and practical project demonstrating core concepts of game development using Python.
+
+
+#  BanglaFakeDetect: Fake News Detection using ML & NLP
+
+> A comparative study of machine learning and neural network models for detecting Bangla fake news with real-time prediction capability.
+
+---
+
+##  Overview
+
+BanglaFakeDetect focuses on identifying fake news in Bangla language using **NLP and machine learning models**.  
+The system benchmarks multiple algorithms and provides a **real-time prediction interface**.
+
+---
+
+##  Objectives
+
+- Classify Bangla news as real or fake  
+- Apply NLP techniques for text processing  
+- Benchmark multiple ML models  
+- Build a real-time prediction system  
+
+---
+
+##  Dataset
+
+- 3,045 Bangla news articles  
+- Sources:
+  - Prothom Alo  
+  - BDNews24  
+  - Jugantor  
+  - Bangla Tribune  
+
+---
+
+##  Methodology
+
+-  Preprocessing:
+  - Cleaning  
+  - Tokenization  
+  - Lemmatization  
+  - TF-IDF Vectorization  
+
+-  Models Used:
+  - Logistic Regression  
+  - SVM  
+  - Random Forest  
+  - Naive Bayes  
+  - KNN  
+  - AdaBoost  
+  - Gradient Boosting  
+  - XGBoost  
+
+---
+
+##  Results
+
+-  **Gradient Boosting**
+  - Accuracy: **83.15%**
+  - F1-score: **87.64%**
+
+- Other strong performers:
+  - SVM  
+  - Random Forest  
+
+---
+
+##  Key Insights
+
+- TF-IDF + embeddings improve performance  
+- Ensemble models outperform simple models  
+- ML-based detection is effective for Bangla news  
+
+---
+
+##  Limitations
+
+- Language ambiguity in Bangla  
+- Data imbalance  
+- Limited NLP tools for Bangla  
+- Domain-specific bias  
+
+---
+
+##  Features
+
+- Real-time prediction interface (React-based)  
+- Lightweight and efficient models  
+
+---
+
+
