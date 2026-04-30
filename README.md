@@ -1,4 +1,4 @@
-#  Space Invaders: 2D Arcade Game using Pygame
+#  1. Space Invaders: 2D Arcade Game using Pygame
 
 > A classic 2D arcade-style shooting game inspired by Space Invaders, built using Python and Pygame.
 
@@ -80,7 +80,7 @@ It demonstrates strong fundamentals of **game development, OOP, and real-time lo
 A fun and practical project demonstrating core concepts of game development using Python.
 
 
-#  BanglaFakeDetect: Fake News Detection using ML & NLP
+#  2. BanglaFakeDetect: Fake News Detection using ML & NLP
 
 > A comparative study of machine learning and neural network models for detecting Bangla fake news with real-time prediction capability.
 
@@ -170,3 +170,82 @@ The system benchmarks multiple algorithms and provides a **real-time prediction 
 ---
 
 
+#  3. PhishGuard-AI: Phishing & Homoglyph Attack Detection
+
+> A hybrid machine learning and deep learning system for detecting phishing emails and homoglyph-based obfuscation using feature engineering and LSTM networks.
+
+---
+
+##  Overview
+
+PhishGuard-AI is designed to detect phishing emails by analyzing **email subject lines and deceptive character patterns (homoglyph attacks)**.  
+The system combines **traditional machine learning models** with **deep learning (CNN + LSTM)** to achieve high accuracy in identifying malicious content.
+
+---
+
+##  Objectives
+
+- Detect phishing and benign emails  
+- Identify homoglyph-based obfuscation  
+- Compare ML and DL model performance  
+- Improve detection accuracy using sequence modeling  
+
+---
+
+##  Methodology
+
+-  Dataset Collection:
+  - Enron  
+  - SpamAssassin  
+  - CEAS  
+  - Ling-Spam  
+  - Nazario & Nigerian Scam datasets  
+  - ~80,000 labeled samples  
+
+-  Feature Engineering:
+  - Character-level homoglyph detection  
+  - Pattern extraction from subject lines  
+
+-  Models Used:
+  - Random Forest  
+  - XGBoost  
+  - CNN + LSTM (Hybrid Deep Learning)  
+
+---
+
+##  Results
+
+| Model | Accuracy |
+|------|--------|
+| Random Forest | 75.37% |
+| XGBoost | 75.00% |
+| **CNN + LSTM** | **92.09%** |
+
+ LSTM-based model significantly outperformed traditional approaches.
+
+---
+
+##  Key Insights
+
+- LSTM captures sequential patterns effectively  
+- Homoglyph attacks can be detected via character-level analysis  
+- Hybrid approach improves phishing detection accuracy  
+
+---
+
+##  Limitations
+
+- Dataset imbalance  
+- Limited zero-day attack coverage  
+- Homoglyph mapping constraints  
+- Lack of full email context  
+
+---
+
+##  Future Work
+
+- Integrate BERT for contextual understanding  
+- Real-time deployment system  
+- Full email body analysis  
+
+---
